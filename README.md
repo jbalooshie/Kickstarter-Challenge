@@ -27,7 +27,7 @@ The main challenge here was determining how to set the rows to just show the mon
 
 For the second part of our analysis, we looked at the percentage of successful campaigns in the "Plays" subcategory, based on their fundraising goals. First, we created 12 different dollar amount ranges between $0-50,000 (<$1000, $1000 - $4999, $5,000 - $9,999, etc.). We then used the COUNTIF function to count the number of successful, failed, and canceled campaigns within each range. Here is the formula used to determine the number of successful campaigns in the $1000 - $4999 band:
 
-'=COUNTIFS(Kickstarter!$D:$D,">=1000", Kickstarter!$D:$D,"<=4999",Kickstarter!$F:$F,"Successful",Kickstarter!$P:$P,"Plays")'
+`=COUNTIFS(Kickstarter!$D:$D,">=1000", Kickstarter!$D:$D,"<=4999",Kickstarter!$F:$F,"Successful",Kickstarter!$P:$P,"Plays")`
 
 This was done for reach fundraising range and outcome. We then totaled the number of campaigns in each range. From the total, we then calculated the percentage of each outcome within each fundraising range. Using those percentages, we created the following line chart:
 
@@ -40,8 +40,18 @@ For this section, the main challenge was a typo in one of the ranges. Instead of
 
 
 # Results
-Answer the following questions in complete and coherent sentences.
-- What are two conclusions you can draw about the Theater Outcomes by Launch Date?
-- What can you conclude about the Outcomes based on Goals?
-- What are some limitations of this dataset?
-- What are some other possible tables and/or graphs that we could create?
+Based on the analysis above, here are conclusions we can draw fromt his data. 
+
+1. What are two conclusions you can draw about the Theater Outcomes by Launch Date?
+  - The highest amount of successful campaigns occurs between the months of May - August. May has the highest amount of successful campaigns. 
+  - The month with the smallest amount of successful campaigns is December. 
+  - If you are seeking to launch a campaign, try to plan to launch it May, June, or July. Avoid launching it in December. 
+  
+2. What can you conclude about the Outcomes based on Goals?
+  - If your play does not need substantial funding, you should set your fundraising goal at less than $4999. 73% of campaigns that ask for less than $4999 are successful. If you ask for less than $1000, then the percentage of successful plays increases to 76%. If you need a larger sum of money for your production, then the next "sweet spot" is between $35000 - $44999. Campaigns in this fundraising band were successful 67% of the time. Going beyond  $44999 is not recommended. Out of the 13 campaigns analyzed above than band, only 2 met their fundraising goals. 
+  
+3. What are some limitations of this dataset?
+  - The dataset provided only covers Kickstarter campaigns between the year 2009 - 2017. The analysis and conclusions presented here are probably not applicable to a campaign launched being launched in 2020 or 2021, due to the global pandemic. It does offer interesting insights into trends prior to the pandemic. However, it is difficult to say if any of these conclusions will be true for the upcoming years. Tastes and behaviors on the platform might changes as a result of the pandemic. 
+
+4. What are some other possible tables and/or graphs that we could create?
+  - For further analysis, we could investigate if there is any correlation between the length of the campaign and the success rate. This could provide insight into the ideal campaign length, to go along with the ideal time to launch the campaign. We could set this up similar to how we determined the outcomes based on the goal amount. We can create bands for certain periods of time, I.E. 0-15 days, 16-30, 31-45, 45+. We can then use a COUNTIF function to count the number of successful and failed campaigns in each band, and caluclate the percentages for each. From there we can create a line graph and see if there are any obviious trends. 
