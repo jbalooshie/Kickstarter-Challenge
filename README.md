@@ -43,7 +43,7 @@ For this section, the main challenge was a typo in one of the ranges. Instead of
 
 
 # Results
-Based on the analysis above, here are conclusions we can draw fromt his data. 
+Based on the analysis above, here are conclusions we can draw from this data. 
 
 1. What are two conclusions you can draw about the Theater Outcomes by Launch Date?
   - The highest amount of successful campaigns occurs between the months of May - August. May has the highest amount of successful campaigns. 
@@ -51,7 +51,7 @@ Based on the analysis above, here are conclusions we can draw fromt his data.
   - If you are seeking to launch a campaign, try to plan to launch it May, June, or July. Avoid launching it in December. 
   
 2. What can you conclude about the Outcomes based on Goals?
-  - If your play does not need substantial funding, you should set your fundraising goal at less than $4999. 73% of campaigns that ask for less than $4999 are successful. If you ask for less than $1000, then the percentage of successful plays increases to 76%. If you need a larger sum of money for your production, then the next "sweet spot" is between $35000 - $44999. Campaigns in this fundraising band were successful 67% of the time. Going beyond  $44999 is not recommended. Out of the 13 campaigns analyzed above than band, only 2 met their fundraising goals. 
+  - If your play does not need substantial funding, you should set your fundraising goal at less than $4999. 73% of campaigns that ask for less than $4999 are successful. If you ask for less than $1000, then the percentage of successful campaigns increases to 76%. If you need a larger sum of money for your production, then the next "sweet spot" is between $35000 - $44999. Campaigns in this fundraising band were successful 67% of the time. Going beyond  $44999 is not recommended. Out of the 13 campaigns analyzed above than band, only 2 met their fundraising goals. 
   
 3. What are some limitations of this dataset?
   - The dataset provided only covers Kickstarter campaigns between the year 2009 - 2017. The analysis and conclusions presented here are probably not applicable to a campaign launched being launched in 2020 or 2021, due to the global pandemic. It does offer interesting insights into trends prior to the pandemic. However, it is difficult to say if any of these conclusions will be true for the upcoming years. Tastes and behaviors on the platform might changes as a result of the pandemic. 
