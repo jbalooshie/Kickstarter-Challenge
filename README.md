@@ -3,7 +3,7 @@ Repository for Module 1 Challenge
 
 
 # Overview of Project
-The purpose of this analysis is to provide a detailed breakdown of how different campaigns fared in relation to their launch dates and their funding goals. Specifically, we will provide recommendations on the ideal time to launch a campaign, and how much money the campaign should seek to raise, while still meeting or exceeding its funding goals. We will specifically be focusing on campaigns in the "plays" subcategory on Kickstarter. At the end of this analysis, an individual seeking to launch a Kickstarter campaign to fund a play will have the information they need to maximize their campaign's chances of being funded.
+The purpose of this analysis is to provide a detailed breakdown of how different campaigns fared in relation to their launch dates and their funding goals. Specifically, we will provide recommendations on the ideal time to launch a campaign, and how much money the campaign should seek to raise, while still successfully meeting or exceeding its funding goals. We will specifically be focusing on campaigns in the "plays" subcategory on Kickstarter. At the end of this analysis, an individual seeking to launch a Kickstarter campaign to fund a play will have the information they need to maximize their campaign's chances of being funded.
 
 
 # Analysis and Challenges
