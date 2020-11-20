@@ -7,7 +7,10 @@ The purpose of this analysis is to provide a detailed breakdown of how different
 
 
 # Analysis and Challenges
-This section explains how the analysis was performed, and details any challenges encountered. It is divided between the main variables we were looking at, how the launch date for the campaign affected the campaign outcome, and how the goal amount affected the campaign outcome. 
+This section explains how the analysis was performed, and details any challenges encountered. It is divided between the main variables we are looking at: 
+
+1. How the launch date for the campaign affects the campaign outcome.
+2. How the goal amount affects the campaign outcome. 
 
 ## Theater Outcomes by Launch Date
 
