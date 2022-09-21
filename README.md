@@ -1,5 +1,5 @@
 # Kickstarter-Challenge
-Repository for Module 1 Challenge
+This repository was created as part of a 6 month Data Analystics Bootcamp trhough George Washington University. This is the repository for the Module 1 Challenge. This challenge served as introduction to basic Microsoft Excel skills such as importing data, creating graphs, and working with pivot tables. 
 
 
 # Overview of Project
